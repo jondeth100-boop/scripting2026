@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rubik+Dirt&display=swap');
+
+.metal-mania-regular,
+h1,
+h2 {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h1 {
+    font-size: 58px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.rubik-dirt-regular,
+body {
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background: #74f779;
+    background: linear-gradient(0deg, rgba(0, 163, 8, 0) 0%, rgb(1, 51, 4) 70%);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(16, 138, 0);
+}
+
+footer {
+    background: #00450b;
+    background: radial-gradient(circle, rgba(0, 69, 11, 1) 0%, rgba(1, 105, 18, 0) 100%);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(16, 138, 0);
+}
+
+body {
+    background: #74f779;
+    background: radial-gradient(circle, rgba(116, 247, 121, 1) 0%, rgba(0, 163, 8, 1) 100%);
+    padding: 0;
+    margin: 0;
+}
+
+.bg-gray {
+    background: #74f779;
+    background: radial-gradient(circle, rgba(116, 247, 121, 1) 0%, rgba(29, 125, 0, 1) 100%);
+}
+
+.bg-dark {
+    background: #56b959;
+    background: radial-gradient(circle, rgba(116, 247, 121, 1) 0%, rgb(23, 100, 0) 100%);
+}
+
+section {
+    /* max width */
+    max-width: 960px;
+    /* centering section */
+    margin: auto;
+    /* text wight */
+    color: rgb(0, 0, 0);
+    /* space inside is padding */
+    padding: 30px;
+    /* space after bottom */
+    margin-bottom: 40px;
+    -webkit-box-shadow: 4px 9px 15px 7px rgba(9, 54, 0, 0.616);
+    box-shadow: 4px 9px 15px 7px rgba(12, 70, 0, 0.616);
+    /* stop content over flow */
+    overflow: hidden;
+}
+
+section img {
+    float: right;
+    margin-left: 20px;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+nav a {
+    color: rgb(111, 255, 28);
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #00ff22;
+    color: #000000;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+a {
+    color: rgb(3, 1, 1);
+}
+
+a:hover {
+    color: rgb(30, 255, 0);
+    text-decoration: none;
+}
+
+#ref {
+    text-align: center;
+}
