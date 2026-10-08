@@ -1,0 +1,54 @@
+/* to set the defalt look use body tag */
+body {
+    /* rimoves defalt padding and margin */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* set back round color */
+    background-color: rgb(49, 73, 209);
+    /*  space inside is padding */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* color of text in side */
+    color: rgb(199, 191, 180);
+    /* dont put left or right pading */
+    text-align: center;
+    /* size of text is font */
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: rgb(49, 73, 209);
+}
+
+section {
+    /* set the width with max-width */
+    max-width: 960px;
+    /*  to ato maticlt center somthing */
+    margin: auto;
+}
+
+p,
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.6;
+}
+
+/* to move an img on a page */
+img {
+    float: right;
+    margin-left: 20px;
+}
+
+/* to change the link color */
+a {
+    color: rgb(165, 42, 159);
+}
+
+#second {
+    background-color: rgb(152, 238, 253);
+    margin-bottom: 30px;
+}
