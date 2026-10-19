@@ -1,0 +1,19 @@
+h1 {
+    text-decoration-color: black;
+}
+
+header {
+    background-image: url(../images/furnitureImages/headerImage.png);
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+}
+
+section {
+    text-align: center;
+
+}
+
+footer {
+    background-color: rgb(212, 212, 212);
+}
