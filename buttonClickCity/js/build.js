@@ -19,7 +19,7 @@ function buildOne() {
     buildings++;
     document.getElementById('city').innerHTML = "you now have" + buildings + " buildings in your city!";
     // ad an img in to a div
-    document.getElementById('cityGraphic').innerHTML += "<img src='images/buildingBlock1.png' alt='buidingOne'>";
+    document.getElementById('cityGraphic').innerHTML += "<img src='images/BuildingBlock1.png' alt='buidingOne'>";
 }
 //Create a function for the second button that prints a message with the number of buildings and the graphic for the second building
 function buildTwo() {
@@ -27,7 +27,7 @@ function buildTwo() {
     buildings++;
     document.getElementById('city').innerHTML = "you now have" + buildings + " buildings in your city!";
     // ad an img in to a div
-    document.getElementById('cityGraphic').innerHTML += "<img src='images/buildingBlock2.png' alt='buidingTwo'>";
+    document.getElementById('cityGraphic').innerHTML += "<img src='images/BuildingBlock2.png' alt='buidingTwo'>";
 }
 
 //Create a function for the third button that prints a message with the number of buildings and the graphic for the second building
@@ -36,5 +36,5 @@ function buildThree() {
     buildings++;
     document.getElementById('city').innerHTML = "you now have" + buildings + " buildings in your city!";
     // ad an img in to a div
-    document.getElementById('cityGraphic').innerHTML += "<img src='images/buildingBlock3.png' alt='buidingThree'>";
+    document.getElementById('cityGraphic').innerHTML += "<img src='images/BuildingBlock3.png' alt='buidingThree'>";
 }
